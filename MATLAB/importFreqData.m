@@ -1,5 +1,7 @@
-path = 'C:\Users\alexxx\Desktop\Work\ELN1_Project2020\SoilDataSpiralProbe\';
-
+path = 'C:\Users\alexxx\Desktop\Work\ELN1_Project2020\FilesForStudents\data\ConductiveProbe\';
+freq = [];
+V1=[];
+V2=[];
 for k=0:4
 file = [path 'R10k_' num2str(k) '.csv'];
 data = readmatrix(file);
