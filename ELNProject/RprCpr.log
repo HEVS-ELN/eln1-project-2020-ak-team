@@ -1,4 +1,4 @@
-Circuit: * C:\Users\Alexa\OneDrive\Documents\HES\2e_Annee\Electronique\LTSpice\ELNProject\RprCpr.asc
+Circuit: * C:\Cours\HES-SO\2eme\ELN\Projet_arrosoir\eln1-project-2020-ak-team\ELNProject\RprCpr.asc
 
 WARNING: Less than two connections to node VCC.  This node is used by V2.
 WARNING: Less than two connections to node VEE.  This node is used by V3.
@@ -10,20 +10,20 @@ Direct Newton iteration for .op point succeeded.
 .step x=4
 .step x=5
 
-Date: Wed Apr  8 14:03:56 2020
-Total elapsed time: 0.326 seconds.
+Date: Thu Apr 23 15:45:47 2020
+Total elapsed time: 0.269 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 8811
-traniter = 8808
-tranpoints = 4405
-accept = 4296
-rejected = 109
+totiter = 273
+traniter = 270
+tranpoints = 136
+accept = 131
+rejected = 5
 matrix size = 9
 fillins = 0
 solver = Normal
-Matrix Compiler1: 134 bytes object code size  0.1/0.0/[0.0]
-Matrix Compiler2: off  [0.1]/0.1/0.1
+Matrix Compiler1:       9 opcodes  0.1/0.0/[0.0]
+Matrix Compiler2: 409 bytes object code size  0.1/0.1/[0.0]
 
