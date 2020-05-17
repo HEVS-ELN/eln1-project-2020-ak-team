@@ -40,17 +40,8 @@ for k=1:(size(stepInds,1)-1)
     t2 = t1+1/sampleFreq;
     V1(:,k) = interp1(dta(:,1), dta(:,2), t1);
     V2(:,k) = interp1(dta(:,1), dta(:,3), t2);
-    NoiseBits = 7;    %what are noise bits? Related to effective bits of the ADC
-
-    %What do these lines do?? What is randn() ?
-    V1dig=int16((2^15)*(V1/Vmax)+randn(nSamples,1)*(2^NoiseBits));
-    V2dig=int16((2^15)*(V2/Vmax)+randn(nSamples,1)*(2^NoiseBits));
-
-    %What do these lines do??
-    V1d=double(V1dig)*Vmax/(2^15);
-    V2d=double(V2dig)*Vmax/(2^15);
+    
+    %IndHum = 0.2+1.2*ratio+2.3*ratio^2+ 0.5*ratio^3 
     plot(V2);
 end
-polyfit([1 ratio],[0 0 1 2 3 4],3);
-ratio = mean(abs(V1d))./mean(abs(V2d));
-IndHum = 4.13-1.5*ratio-10.52*ratio.^2+7.91*ratio.^3
+ratio = mean(abs(V1))/mean(abs(V2))
