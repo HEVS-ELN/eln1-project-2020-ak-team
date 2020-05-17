@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=VDD Pin=BT1-1
+Removed Pin From Net: NetName=VSS Pin=BT1-2
+Change Component Designator: OldDesignator=BT1 NewDesignator=BT?
+Added Component: Designator=LD1(LED 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=BT?-1
+Added Pin To Net: NetName=VDD Pin=LD1-2
+Added Pin To Net: NetName=Net*_12 Pin=*-12
+Added Pin To Net: NetName=Net*_12 Pin=LD1-1
+Added Net: Name=Net*_12
+Added Member To Class: ClassName=ELN1project Member=Component LD1 *

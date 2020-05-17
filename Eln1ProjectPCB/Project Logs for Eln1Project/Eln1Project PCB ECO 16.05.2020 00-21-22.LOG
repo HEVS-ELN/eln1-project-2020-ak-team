@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=Net*_12 Pin=LD1-1
+Added Component: Designator=RLed(RESISTOR 0603 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "220"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Net*_12 Pin=RLed-2
+Added Pin To Net: NetName=NetLD1_1 Pin=LD1-1
+Added Pin To Net: NetName=NetLD1_1 Pin=RLed-1
+Added Net: Name=NetLD1_1
+Added Member To Class: ClassName=ELN1project Member=Component RLed 220

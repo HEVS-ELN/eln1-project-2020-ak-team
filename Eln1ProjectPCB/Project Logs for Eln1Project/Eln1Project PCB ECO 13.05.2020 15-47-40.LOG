@@ -1,0 +1,21 @@
+Added Component: Designator=C13(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "N.C."; VariantName = "[No Variations]"
+Added Component: Designator=L2(INDUCTOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10uH"; VariantName = "[No Variations]"
+Added Component: Designator=L3(INDUCTOR 1005 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "15nH"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Net*_30 Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=Net*_30 Pin=L3-1
+Added Pin To Net: NetName=Net*_31 Pin=*-31
+Added Pin To Net: NetName=Net*_31 Pin=L2-2
+Added Net: Name=Net*_31
+Added Pin To Net: NetName=NetL2_1 Pin=L2-1
+Added Pin To Net: NetName=NetL2_1 Pin=L3-2
+Added Net: Name=NetL2_1
+Added Member To Class: ClassName=ELN1project Member=Component C13 
+Added Member To Class: ClassName=ELN1project Member=Component L2 10uH
+Added Member To Class: ClassName=ELN1project Member=Component L3 15nH

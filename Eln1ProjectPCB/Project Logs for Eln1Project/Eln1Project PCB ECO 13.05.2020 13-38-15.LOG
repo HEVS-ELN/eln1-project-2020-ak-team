@@ -1,0 +1,14 @@
+Added Component: Designator=U?(SO8-TP P1.27 T2.4x2.4 C4.0X5.0 H1.4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "MAX9918ASA"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetU?_1 Pin=U?-1
+Added Pin To Net: NetName=NetU?_1 Pin=U?-6
+Added Net: Name=NetU?_1
+Added Pin To Net: NetName=NetU?_5 Pin=U?-5
+Added Pin To Net: NetName=NetU?_5 Pin=U?-6
+Added Net: Name=NetU?_5
+Added Pin To Net: NetName=NetU?_7 Pin=U?-7
+Added Pin To Net: NetName=NetU?_7 Pin=U?-8
+Added Net: Name=NetU?_7
+Added Member To Class: ClassName=ELN1project Member=Component U? LMP7721
+Added Room: Name=ELN1project

@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=Net*_24 Pin=X1-1
+Removed Pin From Net: NetName=Net*_23 Pin=X1-2
+Change Component Footprint: Designator=X1 Old Footprint=Crystal C3.2x1.5 Abracon ABS07 New Footprint=Crystal C2.0x1.6 Abracon ABM11W
+Change Component Comment : Designator=X1 Old Comment= New Comment=32MHz
+Change Component Designator: OldDesignator= NewDesignator=C5
+Added Pin To Net: NetName=Net*_23 Pin=X1-1
+Added Pin To Net: NetName=VSS Pin=X1-2
+Added Pin To Net: NetName=Net*_24 Pin=X1-3
+Added Pin To Net: NetName=VSS Pin=X1-4
+Added Member To Class: ClassName=ELN1project Member=Component * Component_1
+Added Member To Class: ClassName=ELN1project Member=Component C5 

@@ -1,0 +1,121 @@
+Removed Pin From Net: NetName=GND Pin=U?-3
+Removed Pin From Net: NetName=GND Pin=U?-4
+Removed Member From Class: ClassName=ELN1project Member=U?
+Added Component: Designator=*(QFN50P500X500X90_HS-33N)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C1(CAPACITOR 1005 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "12pF"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAPACITOR 1005 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "12pF"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAPACITOR 1005 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.8pF"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAPACITOR 1005 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C5(CAPACITOR 1005 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C6(CAPACITOR 1005 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "N.C."; VariantName = "[No Variations]"
+Added Component: Designator=C7(CAPACITOR 1005 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C8(CAPACITOR 1005 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C9(CAPACITOR 1005 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "4.7uF"; VariantName = "[No Variations]"
+Added Component: Designator=C10(CAPACITOR 1608 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C11(CAPACITOR 1005 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "12pF"; VariantName = "[No Variations]"
+Added Component: Designator=C12(CAPACITOR 1005 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "12pF"; VariantName = "[No Variations]"
+Added Component: Designator=L1(INDUCTOR 1005 REFLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "3.9nH"; VariantName = "[No Variations]"
+Added Component: Designator=X1(Crystal C3.2x1.5 Abracon ABS07)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "32MHz"; VariantName = "[No Variations]"
+Added Component: Designator=X2(Crystal C3.2x1.5 Abracon ABS07)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "32.768MHz"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=*-19
+Added Pin To Net: NetName=GND Pin=*-29
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=GND Pin=L1-1
+Added Pin To Net: NetName=Net*_1 Pin=*-1
+Added Pin To Net: NetName=Net*_1 Pin=C4-2
+Added Net: Name=Net*_1
+Added Pin To Net: NetName=Net*_2 Pin=*-2
+Added Pin To Net: NetName=Net*_2 Pin=C11-2
+Added Pin To Net: NetName=Net*_2 Pin=X2-1
+Added Net: Name=Net*_2
+Added Pin To Net: NetName=Net*_3 Pin=*-3
+Added Pin To Net: NetName=Net*_3 Pin=C12-2
+Added Pin To Net: NetName=Net*_3 Pin=X2-2
+Added Net: Name=Net*_3
+Added Pin To Net: NetName=Net*_9 Pin=*-9
+Added Pin To Net: NetName=Net*_9 Pin=C5-2
+Added Net: Name=Net*_9
+Added Pin To Net: NetName=Net*_20 Pin=*-20
+Added Pin To Net: NetName=Net*_20 Pin=C3-1
+Added Net: Name=Net*_20
+Added Pin To Net: NetName=Net*_21 Pin=*-21
+Added Pin To Net: NetName=Net*_21 Pin=C6-1
+Added Net: Name=Net*_21
+Added Pin To Net: NetName=Net*_22 Pin=*-22
+Added Pin To Net: NetName=Net*_22 Pin=C7-1
+Added Net: Name=Net*_22
+Added Pin To Net: NetName=Net*_23 Pin=*-23
+Added Pin To Net: NetName=Net*_23 Pin=C1-1
+Added Pin To Net: NetName=Net*_23 Pin=X1-2
+Added Net: Name=Net*_23
+Added Pin To Net: NetName=Net*_24 Pin=*-24
+Added Pin To Net: NetName=Net*_24 Pin=C2-1
+Added Pin To Net: NetName=Net*_24 Pin=X1-1
+Added Net: Name=Net*_24
+Added Pin To Net: NetName=Net*_25 Pin=*-25
+Added Pin To Net: NetName=Net*_25 Pin=C8-1
+Added Net: Name=Net*_25
+Added Pin To Net: NetName=Net*_30 Pin=*-30
+Added Pin To Net: NetName=Net*_30 Pin=C10-1
+Added Net: Name=Net*_30
+Added Pin To Net: NetName=Net*_32 Pin=*-32
+Added Pin To Net: NetName=Net*_32 Pin=C9-2
+Added Net: Name=Net*_32
+Added Member To Class: ClassName=ELN1project Member=Component * Component_1
+Added Member To Class: ClassName=ELN1project Member=Component C1 
+Added Member To Class: ClassName=ELN1project Member=Component C2 
+Added Member To Class: ClassName=ELN1project Member=Component C3 
+Added Member To Class: ClassName=ELN1project Member=Component C4 
+Added Member To Class: ClassName=ELN1project Member=Component C5 
+Added Member To Class: ClassName=ELN1project Member=Component C6 
+Added Member To Class: ClassName=ELN1project Member=Component C7 
+Added Member To Class: ClassName=ELN1project Member=Component C8 
+Added Member To Class: ClassName=ELN1project Member=Component C9 
+Added Member To Class: ClassName=ELN1project Member=Component C10 
+Added Member To Class: ClassName=ELN1project Member=Component C11 
+Added Member To Class: ClassName=ELN1project Member=Component C12 
+Added Member To Class: ClassName=ELN1project Member=Component L1 3.9nH
+Added Member To Class: ClassName=ELN1project Member=Component X1 
+Added Member To Class: ClassName=ELN1project Member=Component X2 

@@ -1,0 +1,4 @@
+Added Component: Designator=U?(SO8 P1.27 C4.0X5.0 H1.75)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LMP7721"; VariantName = "[No Variations]"
+Added Class: Name=ELN1project

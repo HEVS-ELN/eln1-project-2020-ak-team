@@ -1,0 +1,13 @@
+Added Component: Designator=Prog(PinHeader1x5 P1.27)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Net*_16 Pin=*-16
+Added Pin To Net: NetName=Net*_16 Pin=Prog-4
+Added Net: Name=Net*_16
+Added Pin To Net: NetName=Net*_17 Pin=*-17
+Added Pin To Net: NetName=Net*_17 Pin=Prog-3
+Added Net: Name=Net*_17
+Added Pin To Net: NetName=Net*_18 Pin=*-18
+Added Pin To Net: NetName=Net*_18 Pin=Prog-2
+Added Net: Name=Net*_18
+Added Member To Class: ClassName=ELN1project Member=Component Prog *

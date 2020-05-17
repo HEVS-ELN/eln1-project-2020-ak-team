@@ -1,0 +1,6 @@
+Added Component: Designator=S1(Push Button C2.5X3.0 OMRON B3U-1000P(M)-B)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VSS Pin=S1-1
+Added Pin To Net: NetName=Net*_8 Pin=S1-2
+Added Member To Class: ClassName=ELN1project Member=Component S1 *

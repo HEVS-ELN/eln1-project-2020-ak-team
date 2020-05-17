@@ -1,0 +1,9 @@
+Added Component: Designator=BT?(BTH2032)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "."; Value = "http://www.chila.ir"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "BAT3volt"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDD Pin=BT?-1
+Added Pin To Net: NetName=VSS Pin=BT?-2
+Added Member To Class: ClassName=ELN1project Member=Component BT? BAT3volt

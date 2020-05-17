@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=GND Pin=L1-1
+Added Pin To Net: NetName=Net*_20 Pin=L1-1
+Added Member To Class: ClassName=ELN1project Member=Component C7 

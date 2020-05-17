@@ -1,0 +1,10 @@
+Added Component: Designator=A1(ANTENNA Ceramic Johanson 2450AT42A100)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2450AT42A100"; VariantName = "[No Variations]"
+Added Component: Designator=U?(NRF52840-QIAA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "nRF52840-QIAA"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ANT1 Pin=A1-1
+Added Pin To Net: NetName=ANT1 Pin=U?-H23
+Added Net: Name=ANT1
+Added Class: Name=Sheet1
